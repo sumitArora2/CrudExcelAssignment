@@ -1,0 +1,27 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "cors": "*",
+    "csv-parser": "*",
+    "csvjson": "*",
+    "csvtojson": "^2.0.10",
+    "dotenv": "*",
+    "express": "*",
+    "fast-csv": "*",
+    "fs": "*",
+    "mongoose": "*",
+    "multer": "*",
+    "nodemon": "*",
+    "path": "*"
+  }
+}
